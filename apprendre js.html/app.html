@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ou ecrire le js</title>
+     
+</head>
+<body>
+   <h1>introduction au objet</h1>
+   <script>
+    /*
+    var heure=20;
+
+    if(typeof(heure) == "number" == true){
+        if(heure<12==true){ 
+        alert("c'est le matin");
+    }
+    else if(heure=12==true){
+        alert('il es midi');
+    }
+    else if(heure<= 18 ==true){
+        alert("c'est apres midi");
+    }
+    else{
+        alert("c'est le soir");
+    }
+    }
+    else{
+        alert('mauvais type valeur');
+    }
+        */
+       /*
+       var x=0;
+       while (x<10){
+        alert('x contient la valeur:'+x);
+        x++;
+       }
+        */
+       /*
+       var x=0,xprim=0,alpha=10,alphaprim=10 
+       var y=x++;
+       var beta=alpha--;*/
+       var primitive='je suis une valeur primitive';
+       var moi={
+        prenom:'assane',
+        Nom:'kasse',
+        age:17,
+
+        identite:function(){
+            return 'prenom:'+this.prenom+
+                    '\nNom:'+this.Nom+
+                    '\nage:'+this.age;
+             
+        }
+       }
+      alert( moi.identite()); 
+   </script>
+</body>
+</html>

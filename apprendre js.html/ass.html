@@ -1,0 +1,42 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body>
+    <h1> les object</h1>
+    <script>
+    /*
+        var primitive='je suis une valeur primitive';
+        var type_prim=typeof(primitive);
+        var chaine=new String('je suis un objet');
+        var type_chaine=typeof(chaine);
+        alert(
+            'type de primitive:'+type_prim+
+            '\ntype de chaine:' +type_chaine
+    );
+    */
+   /* 
+   var primitive='je suis une primitive';
+   var longeur_prim=primitive.length;
+   var maj_prive=primitive.toUpperCase();
+
+   var chaine= new String('je suis un objet');
+   var maj_chaine= chaine.toUpperCase();
+   alert(
+    'longueur de primitive:'+longeur_prim+
+    '\nmaj de pimitive:'+maj_prive+
+    '\nmaj de chaine :'+maj_chaine
+   );
+    */
+ var prenoms=['assane','abdou','laye','maman'],p='';
+ var taille= prenoms.push('baye','ass');
+ for(var i=0; i<prenoms.length;i++){
+   p+='prenom n°'+(i+1)+ ':'+prenoms[i]+'\n';
+}
+alert('le tableau contient'+taille+'element:\n\n'+p);
+    </script>
+ </body>
+ </html>
